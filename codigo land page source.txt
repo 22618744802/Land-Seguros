@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corretora de Seguros</title>
+<style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4;}
+    header {background:#1E3A8A; color:white; padding:20px 10%; display:flex; justify-content:space-between; align-items:center;}
+    header nav a {color:white; margin:0 10px; text-decoration:none; font-weight:bold;}
+    .banner {background:#3B82F6; color:white; text-align:center; padding:80px 10%;}
+    .banner h1 {font-size:2.5em; margin-bottom:20px;}
+    .btn {background:#FBBF24; color:#1E3A8A; padding:15px 25px; text-decoration:none; font-weight:bold; border-radius:5px;}
+    .form-section {background:white; padding:50px 10%; text-align:center;}
+    .form-section h2 {margin-bottom:20px;}
+    .form-section form input, .form-section form select {width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;}
+    .benefits, .products, .testimonials {padding:50px 10%; background:white; margin:20px 0;}
+    .benefits ul {list-style:none; padding:0;}
+    .benefits li {margin:15px 0; font-weight:bold;}
+    .products div {background:#f9f9f9; padding:20px; margin:10px 0; border-radius:5px;}
+    footer {background:#1E3A8A; color:white; padding:30px 10%; text-align:center;}
+    footer a {color:#FBBF24; text-decoration:none;}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo"><h2>Corretora XYZ</h2></div>
+    <nav>
+        <a href="#cotacao">Cotação</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#produtos">Seguros</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h1>Seu seguro rápido, seguro e sem burocracia</h1>
+    <a href="#cotacao" class="btn">Simule seu seguro em 1 minuto</a>
+</section>
+
+<section class="form-section" id="cotacao">
+    <h2>Solicite sua cotação online</h2>
+    <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="tel" name="telefone" placeholder="Telefone / WhatsApp" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <select name="tipo" required>
+            <option value="">Tipo de seguro</option>
+            <option value="moto">Moto</option>
+            <option value="carro">Carro</option>
+            <option value="vida">Vida</option>
+            <option value="residencial">Residencial</option>
+            <option value="empresarial">Empresarial</option>
+        </select>
+        <input type="text" name="modelo" placeholder="Modelo e ano do veículo (se aplicável)">
+        <input type="submit" value="Receber Cotação" class="btn">
+    </form>
+</section>
+
+<section class="benefits" id="beneficios">
+    <h2>Por que escolher a Corretora XYZ?</h2>
+    <ul>
+        <li>Compra 100% online e rápida</li>
+        <li>Pagamento seguro e facilitado</li>
+        <li>Suporte remoto e acompanhamento completo</li>
+        <li>Renovação automática de apólices</li>
+    </ul>
+</section>
+
+<section class="products" id="produtos">
+    <h2>Nossos Seguros</h2>
+    <div>Moto – Seguro completo com assistência 24h <a href="#cotacao" class="btn">Simular Agora</a></div>
+    <div>Carro – Cobertura ampla para você e terceiros <a href="#cotacao" class="btn">Simular Agora</a></div>
+    <div>Vida – Proteção para você e sua família <a href="#cotacao" class="btn">Simular Agora</a></div>
+    <div>Residencial – Proteja seu imóvel e bens <a href="#cotacao" class="btn">Simular Agora</a></div>
+    <div>Empresarial – Seguros para empresas e frotas <a href="#cotacao" class="btn">Simular Agora</a></div>
+</section>
+
+<section class="testimonials">
+    <h2>O que dizem nossos clientes</h2>
+    <p>"Excelente atendimento, fiz a cotação e em minutos já estava com minha apólice ativa!" – João S.</p>
+    <p>"Seguro rápido, confiável e sem burocracia. Recomendo!" – Maria F.</p>
+</section>
+
+<footer id="contato">
+    <p>Contato: <a href="mailto:seuemail@dominio.com">seuemail@dominio.com</a> | WhatsApp: (11) 99999-9999</p>
+    <p>© 2025 Corretora XYZ. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
